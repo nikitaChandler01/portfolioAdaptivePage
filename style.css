@@ -1,0 +1,338 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.subtitle {
+  font-size: 16px;
+  color: #5C5C5C;
+  text-align: center;
+}
+.title {
+  font-weight: 500;
+  font-size: 46px;
+  text-align: center;
+}
+.button--blue {
+  padding: 18px 46px 18px 46px;
+  border-radius: 40px;
+  background-color: #03D6F3;
+  border: 1px solid #03D6F3;
+}
+.button {
+  padding: 18px 46px 18px 46px;
+  border-radius: 40px;
+}
+.button-row {
+  display: flex;
+}
+/* ===============HEADER=============== */
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 50px 36px 50px;
+  flex-wrap: wrap;
+}
+.header__menu-nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__button {
+  border: 1px solid #ffffff;
+}
+.header__btn,
+.header__menu-links {
+  color: #ffffff;
+}
+.header__content {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 20px 0 20px;
+}
+.header__title {
+  font-size: 56px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header__subtitle {
+  color: #ffffff;
+  font-weight: bold;
+}
+.header__button-row {
+  justify-content: center;
+  margin-top: 60px;
+}
+.header__button--white {
+  background: #ffffff;
+  margin-right: 14px;
+}
+.header__btn--white {
+  color: #112d57;
+  font-weight: 500;
+}
+.header__image {
+  text-align: center;
+}
+.header__img {
+  width: 100%;
+}
+
+/* ===============SECTION FIGMALAND FEATURES=============== */
+.section-feature {
+  padding-top: 50px;
+}
+
+.section-feautre__row-items {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.section-feature__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 50px 40px 50px;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 400px;
+}
+.title-smaller {
+  font-size: 30px;
+}
+.section-feature__text {
+  text-align: left;
+}
+.section-feature__learn-more {
+  color: #03d6f3;
+}
+.section-feature__item--gradient {
+  background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
+  padding-top: 82px;
+}
+.section-feature__text--white,
+.title-smaller--white,
+.section-feature__learn-more--white {
+  color: #ffffff;
+}
+
+/* ===============SECTIONS <<QUICK & EASY PROCESS(1 РАЗДЕЛ)>> and <<PERFECT SOLUTIONS(3 РАЗДЕЛ (не весь)>>=============== */
+
+.posibilities__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 70px 100px 70px;
+}
+
+.possibilities__text {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-left {
+  font-weight: 500;
+  font-size: 46px;
+}
+
+.possibilities__paragraph {
+  font-weight: 700;
+  color: #5C5C5C;
+}
+.possibilities__button--blue {
+  margin-right: 20px;
+}
+.possibilities__btn {
+  color: #30D7BA;
+}
+.possibilities__btn--blue {
+  color: #ffffff;  
+}
+.possibilities__button {
+  border: 1px solid #30D7BA;
+}
+.possibilites__img {
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  border-radius: 5px;
+}
+/* =========================== SECTION PERFECT FOR OPERATIONS (2 РАЗДЕЛ) РЕВЕРС============ */
+.posibilities__content--reverse {
+  flex-direction: row-reverse;
+}
+.possibilites__img--reverse {
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  border-radius: 5px;
+  margin-right: 80px;
+}
+.possibilities__text--reverse {
+  margin-right: 0px;
+}
+/* ===========================SECTION PERFECT SOLUTIONS (3 РАЗДЕЛ) небольшие корректировки============ */
+.posibilities__content--compressed {
+  display: flex; 
+  justify-content: space-between; /*увеличиваю высоту текста*/
+  padding: 100px 0 100px 0;
+}
+.possibilities__text--compressed {
+  padding-top: 40px;    
+  margin-right: 40px;
+}
+.button--blue--compressed {
+  margin-right: 4px;
+  padding: 8px 34px 8px 34px;   /*Утончаю кнопки*/
+}
+.button__compressed {
+  padding: 8px 34px 8px 34px;   /*Утончаю кнопки*/
+}
+
+/* =========================PRICES========================*/
+
+.price-inner {
+  padding: 50px 100px 50px 100px;
+}
+.price__items {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.price__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #DEDEDE;
+  border-radius: 8px;
+}
+.price__button--blue {
+  width: 100%;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 30px;
+}
+.price__btn--blue {
+  color: #ffffff;
+}
+.price__cost {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.price__value {
+  color: #30D7BA;
+  font-size: 56px;
+  font-weight: bolder;
+
+}
+.price__currency-time {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  line-height: 0px;
+  
+}
+.price__remark {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.price__value--smaller {
+  font-size: 24px;
+}
+.price__options--gray {
+  color: #5C5C5C;
+}
+.price__options {
+  font-size: 14px;
+}
+.price__remark--upper {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+/* ===============SUBSCRIBE PAGE======================= */
+.subscribe-inner {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: 60px 200px 60px 200px;
+}
+.subscribe__email {
+  display: flex;
+  align-items: center;
+}
+.subscribe__subtitle {
+  margin-top: -30px;
+  margin-bottom: 60px;
+}
+.subscribe__email-form {
+  background-color: #d1d1d1;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  height: 50px;
+  width: 250px;
+  font-size: 14px;
+  text-align: center;
+}
+.subscribe__email-button {
+  margin-left: 20px;
+  padding: 12px 34px 12px 34px;
+}
+
+/* ==============FOOTER================ */
+
+footer {
+  background-color: #112D57;
+}
+.footer-inner {
+  padding: 60px 80px 60px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__items {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.footer__item-text {
+  margin-bottom: 40px;
+  text-align: left;
+}
+.footer__items--map {
+  border-radius: 10px;
+}
+.footer__items--contacts{
+  height: 200px;
+  justify-content: space-between;
+}
+.footer__contact-info {
+  font-size: 14px;
+}
+.footer__links-icon {
+  margin-right: 20px;
+}
